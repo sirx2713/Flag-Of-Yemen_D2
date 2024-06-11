@@ -1,0 +1,26 @@
+h1{
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+body{
+    background-color: bisque;
+}
+#container{
+display: flex;
+flex-direction: column;
+}
+#container > #red-box{
+    height: 200px;
+    width: 1200px;
+    background-color: #CE1126;
+}
+#container > #white-box{
+    height: 200px;
+    width: 1200px;
+    background-color: white;
+}
+#container > #black-box{
+    height: 200px;
+    width: 1200px;
+    background-color: black;
+}
